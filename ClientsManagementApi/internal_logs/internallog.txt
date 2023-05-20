@@ -14293,3 +14293,12 @@
 2023-05-19 23:46:45.0794 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
 2023-05-19 23:46:45.0950 Trace FileTarget(Name=logfile) has 2 layouts
 2023-05-19 23:46:45.1001 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-05-19 23:48:10.7958 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2023-05-19 23:48:10.7958 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2023-05-19 23:48:10.7958 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2023-05-19 23:48:10.8005 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2023-05-19 23:48:10.8005 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2023-05-19 23:48:10.8005 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2023-05-19 23:48:10.8534 Debug FileTarget(Name=logfile): Preparing for new file: 'D:\Proyectos\Oriontek\technical_test_oriontek\ClientsManagementApi\bin\Debug\net7.0\.\logs\2023-05-19_logfile.txt'
+2023-05-19 23:48:10.8696 Debug FileTarget(Name=logfile): Creating file appender: 'D:\Proyectos\Oriontek\technical_test_oriontek\ClientsManagementApi\bin\Debug\net7.0\.\logs\2023-05-19_logfile.txt'
+2023-05-19 23:48:10.8696 Trace FileTarget(Name=logfile): Opening D:\Proyectos\Oriontek\technical_test_oriontek\ClientsManagementApi\bin\Debug\net7.0\.\logs\2023-05-19_logfile.txt with allowFileSharedWriting=False
