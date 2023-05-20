@@ -21,8 +21,13 @@ This project is part of a recruitment process as a full-stack developer by the c
 
 ![Alt text](https://github.com/nolascode/technical-test-oriontek/blob/develop/ExtraFiles/Screenshot%202023-05-19%20230128.png?raw=true)
 
+![Alt text](https://github.com/nolascode/technical-test-oriontek/blob/develop/ExtraFiles/Screenshot%202023-05-19%20234820.png?raw=true)
 
+![Alt text](https://github.com/nolascode/technical-test-oriontek/blob/develop/ExtraFiles/Screenshot%202023-05-19%20234834.png?raw=true)
+
+![Alt text](https://github.com/nolascode/technical-test-oriontek/blob/develop/ExtraFiles/Screenshot%202023-05-19%20234854.png?raw=true)
 ![Alt text](https://github.com/nolascode/technical-test-oriontek/blob/develop/ExtraFiles/Screenshot%202023-05-19%20225800.png?raw=true)
+
 
 
 
