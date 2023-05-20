@@ -1,0 +1,17 @@
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\bin\Debug\net6.0\Contracts.deps.json
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\bin\Debug\net6.0\Contracts.dll
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\bin\Debug\net6.0\Contracts.pdb
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\bin\Debug\net6.0\Entities.dll
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\bin\Debug\net6.0\Shared.dll
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\bin\Debug\net6.0\Entities.pdb
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\bin\Debug\net6.0\Shared.pdb
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.dll
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\refint\Contracts.dll
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\Contracts.pdb
+D:\Proyectos\Oriontek\technical_test_oriontek\Contracts\obj\Debug\net6.0\ref\Contracts.dll
