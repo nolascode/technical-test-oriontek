@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Service.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.Contracts.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Contracts/Contracts.csproj",
+      "msbuildProject": "../Contracts/Contracts.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Service.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Service.Contracts/Service.Contracts.csproj",
+      "msbuildProject": "../Service.Contracts/Service.Contracts.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Contracts >= 1.0.0",
+      "Service.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ramon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Proyectos\\Oriontek\\technical_test_oriontek\\Service\\Service.csproj",
+      "projectName": "Service",
+      "projectPath": "D:\\Proyectos\\Oriontek\\technical_test_oriontek\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\Oriontek\\technical_test_oriontek\\Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ramon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Proyectos\\Oriontek\\technical_test_oriontek\\Contracts\\Contracts.csproj": {
+              "projectPath": "D:\\Proyectos\\Oriontek\\technical_test_oriontek\\Contracts\\Contracts.csproj"
+            },
+            "D:\\Proyectos\\Oriontek\\technical_test_oriontek\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "D:\\Proyectos\\Oriontek\\technical_test_oriontek\\Service.Contracts\\Service.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
