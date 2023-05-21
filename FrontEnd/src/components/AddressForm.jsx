@@ -1,17 +1,12 @@
 /* eslint-disable react/prop-types */
 import { useFormik } from 'formik';
-const AddressForm = ({
-  onSubmit,
-  onCancelSumbit,
-  editMode,
-  addressSelectedToWork,
-}) => {
+const AddressForm = ({ onSubmit, onCancelSumbit, addressSelectedToWork }) => {
   const formik = useFormik({
     initialValues: {
-      street: editMode ? addressSelectedToWork?.street : '',
-      city: editMode ? addressSelectedToWork?.city : '',
-      state: editMode ? addressSelectedToWork?.state : '',
-      zip: editMode ? addressSelectedToWork?.zip : '',
+      street: addressSelectedToWork?.street ?? '',
+      city: addressSelectedToWork?.city ?? '',
+      state: addressSelectedToWork?.state ?? '',
+      zip: addressSelectedToWork?.zip ?? '',
     },
     onSubmit: (values) => {
       onSubmit(values);

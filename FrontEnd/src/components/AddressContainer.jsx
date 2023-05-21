@@ -36,7 +36,6 @@ const AddressContainer = () => {
       </div>
       {addressCreateMode || addressEditMode ? (
         <AddressForm
-          editMode={addressEditMode}
           addressSelectedToWork={addressSelectedToWork}
           onCancelSumbit={() => {
             if (addressEditMode) {

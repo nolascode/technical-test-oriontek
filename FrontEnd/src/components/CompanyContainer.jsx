@@ -36,7 +36,6 @@ const CompanyContainer = () => {
       </div>
       {creatingMode || editMode ? (
         <CompanyForm
-          editMode={editMode}
           companySelectedToWork={companySelectedToWork}
           onSubmit={async (values) => {
             if (editMode) {

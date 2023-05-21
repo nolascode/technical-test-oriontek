@@ -3,14 +3,13 @@ import { useFormik } from 'formik';
 const ClientForm = ({
   onSubmit = null,
   cancelSumbit,
-  editMode = false,
   clientSelectedToWork,
 }) => {
   const formik = useFormik({
     initialValues: {
-      name: editMode ? clientSelectedToWork?.name : '',
-      email: editMode ? clientSelectedToWork?.email : '',
-      phone: editMode ? clientSelectedToWork?.phone : '',
+      name: clientSelectedToWork?.name ?? '',
+      email: clientSelectedToWork?.email ?? '',
+      phone: clientSelectedToWork?.phone ?? '',
     },
     onSubmit: (values) => {
       if (onSubmit !== null) {

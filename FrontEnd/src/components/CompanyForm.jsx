@@ -1,20 +1,15 @@
 /* eslint-disable react/prop-types */
 import { useFormik } from 'formik';
-const CompanyForm = ({
-  onSubmit,
-  cancelSumbit,
-  editMode,
-  companySelectedToWork,
-}) => {
+const CompanyForm = ({ onSubmit, cancelSumbit, companySelectedToWork }) => {
   const formik = useFormik({
     initialValues: {
-      name: editMode ? companySelectedToWork?.name : 'Domitracking',
-      address: editMode ? companySelectedToWork?.address : 'Marginal Oeste #47',
-      city: editMode ? companySelectedToWork?.city : 'Santa Cruz de Barahona',
-      state: editMode ? companySelectedToWork?.state : 'Barahona',
-      zip: editMode ? companySelectedToWork?.zip : '25635',
-      email: editMode ? companySelectedToWork?.email : 'admin@domitracking.com',
-      phone: editMode ? companySelectedToWork?.phone : '809-524-5600',
+      name: companySelectedToWork?.name ?? 'Domitracking',
+      address: companySelectedToWork?.address ?? 'Marginal Oeste #47',
+      city: companySelectedToWork?.city ?? 'Santa Cruz de Barahona',
+      state: companySelectedToWork?.state ?? 'Barahona',
+      zip: companySelectedToWork?.zip ?? '25635',
+      email: companySelectedToWork?.email ?? 'admin@domitracking.com',
+      phone: companySelectedToWork?.phone ?? '809-524-5600',
     },
     onSubmit: (values) => {
       onSubmit(values);

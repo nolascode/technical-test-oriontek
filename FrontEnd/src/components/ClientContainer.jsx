@@ -34,7 +34,6 @@ const ClientContainer = () => {
       </div>
       {clientCreateMode || clientEditMode ? (
         <ClientForm
-          editMode={clientEditMode}
           clientSelectedToWork={clientSelectedToWork}
           cancelSumbit={() => {
             if (clientEditMode) {
